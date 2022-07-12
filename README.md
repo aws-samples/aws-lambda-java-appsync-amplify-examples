@@ -488,4 +488,5 @@ Run the command: `amplify push`
 
 After the push has been completed, Login to your AWS console and open the Lambda functions console. Select the appropriate function name created.
 
-Click on the test tab present beside code. Then click on test.
+Click on the test tab present beside code. Then click on test. The output should appear as follows.
+![image](https://user-images.githubusercontent.com/87995712/178560264-2e2c275f-1cdb-4f9d-9ccc-7411bd012729.png)
