@@ -14,7 +14,7 @@ Before we begin, make sure you have the following installed:
 
 `npm install -g @aws-amplify/cli`
 
-Now it's time to setup the Amplify CLI. Configure Amplify by running the following command:
+Next, setup the Amplify CLI. Configure Amplify by running the following command:
 
 `amplify configure`
 
@@ -29,7 +29,7 @@ cd react-amplified
 
 `amplify init`
 
-When you initialize Amplify you'll be prompted for some information about the app, with the option to accept recommended values:
+When you initialize Amplify you are prompted to enter information about the app, with the option to accept recommended values:
 
 ```
 Enter a name for the project (amplified)
@@ -93,7 +93,7 @@ Run the following command.
 
 Depending on your requirement, select API key or IAM as your authorization.
 
-We can call an AppSync GraphQL API from a Java app or a Lambda function. Let's take a basic Todo app as an example:
+We can call an AppSync GraphQL API from a Java app or a Lambda function. Let us take a basic Todo app as an example:
 
 
 ### API key
@@ -115,7 +115,7 @@ type Todo @model @auth(rules: [{ allow: private, provider: iam }]) {
 
 Paste the API key or IAM auth schema into the `schema.graphql` file.
 
-This API will have operations available for Query, Mutation, and Subscription. Let's take a look at how to perform a mutation from a Lambda function using Java.
+This API has operations available for Query, Mutation, and Subscription. Next, take a look at how to perform a mutation from a Lambda function using Java.
 
 ### Pushing the Schema to the cloud.
 
@@ -488,5 +488,6 @@ Run the command: `amplify push`
 
 After the push has been completed, Login to your AWS console and open the Lambda functions console. Select the appropriate function name created.
 
-Click on the test tab present beside code. Then click on test. The output should appear as follows.
+Click on the test tab present beside code. Then click on test. The output should appear as follows:
+
 ![image](https://user-images.githubusercontent.com/87995712/178560264-2e2c275f-1cdb-4f9d-9ccc-7411bd012729.png)
