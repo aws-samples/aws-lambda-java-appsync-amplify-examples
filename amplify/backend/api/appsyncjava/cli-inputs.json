@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "appsyncjava",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\amptest\\aws-samples\\appsyncjava\\amplify\\backend\\api\\appsyncjava\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7,
+      "apiKeyExpirationDate": "2022-07-19T13:42:27.815Z",
+      "keyDescription": "API key"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      }
+    ]
+  }
+}

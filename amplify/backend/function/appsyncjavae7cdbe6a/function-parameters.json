@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "api": {
+      "appsyncjava": [
+        "Query",
+        "Mutation",
+        "Subscription"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
