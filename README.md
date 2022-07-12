@@ -1,4 +1,4 @@
-# Using a Amplify generated Java Lambda function to call a AppSync API.
+# Invoke AppSync API through Java based Lambda functions generated from AWS Amplify.
 
 Before we begin, make sure you have the following installed:
 
