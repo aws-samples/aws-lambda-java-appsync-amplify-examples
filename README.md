@@ -10,6 +10,8 @@ Before we begin, make sure you have the following installed:
 
 This tutorial assumes that you're familiar with both JavaScript/ES6 and React. If you need to brush up on React, we recommend going through the official tutorial.
 
+![image](https://user-images.githubusercontent.com/87995712/178571446-2a2a777d-2a00-4ebe-aefc-5610ad1c07a4.png)
+
 ## Install Amplify CLI
 
 `npm install -g @aws-amplify/cli`
