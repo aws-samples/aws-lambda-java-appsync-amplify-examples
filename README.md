@@ -1,4 +1,4 @@
-# Amplify React project that utilizes a Java Lambda function to call a AppSync API.
+# Using a Amplify generated Java Lambda function to call a AppSync API.
 
 Before we begin, make sure you have the following installed:
 
